@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+</body>
+<div class="container">
+    <div class="row">
+        <form class="col6 form" id="taskForm">
+            <h2>INPUT CONTAINER</h2>
+            <div>
+                <label>TASK</label><br>
+                <textarea type="text" cols="40" rows="3" id="task"></textarea>
+            </div>
+            <div>
+                <label>How many days to require to complete the task?</label><br>
+                <input type="number" placeholder="Enter the no of days" id="time">
+            </div>
+            <button id="addButton">Add</button>
+        </form>
+        <div class="taskcontainer col6">
+            <h2>TASK CONTAINER</h2>
+
+        </div>
+    </div>
+    <h1>THE TASK TABLE</h1>
+    <div>
+        <table>
+            <thead>
+                <tr class="heading">
+                    <th>EMPLOYEES/DATE</th>
+                    <th class="currentdate"></th>
+                </tr>
+            </thead>
+            <tbody class="tablebody">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" src="main.js">
+
+</script>
+
+</html>

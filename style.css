@@ -1,0 +1,69 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+textarea,input{
+    border: 1px solid;
+    padding: 5px 20px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    height: 25px;
+}
+th{
+    width: 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#addButton{
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: brown;
+    margin: 35px 0;
+}
+.dragcontent{
+    font-size: 22px;
+    text-transform: capitalize;
+    border: 2px solid;
+    margin: 10px 0;
+    text-align: center;
+    padding: 5px 0;
+}
+.color{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: khaki;
+    color: crimson;
+}
+.newrow td:first-child {
+    text-transform: uppercase;
+}
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.col6{
+    width: 45%;
+}
+#taskForm{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.taskcontainer{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 0 45px;
+}
